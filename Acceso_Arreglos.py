@@ -11,7 +11,7 @@ num_semanas = 4   # Semana 1, Semana 2, Semana 3, Semana 4
 
 temperaturas = np.zeros((num_ciudades, num_dias, num_semanas))
 temp_variable = [
-    [   # Guayaquil
+    [   # Quito
         [   # Semana 1
             {"day": "Lunes", "temp": 29},
             {"day": "Martes", "temp": 30},
@@ -49,7 +49,7 @@ temp_variable = [
             {"day": "Domingo", "temp": 31}
         ]
     ],
-    [   # Quito
+    [   # Guayaquil
         [   # Semana 1
             {"day": "Lunes", "temp": 22},
             {"day": "Martes", "temp": 24},
